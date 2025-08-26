@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # サイトマップの場所
-Sitemap: https://www.asrirfix.co.jp/sitemap.xml
+Sitemap: https://www.asrirfix.com/sitemap.xml
 
 # 特定のディレクトリの制御（必要に応じて）
 # Disallow: /admin/
@@ -10,3 +10,7 @@ Sitemap: https://www.asrirfix.co.jp/sitemap.xml
 
 # クロール遅延（必要に応じて）
 # Crawl-delay: 1
+
+# カスタムドメイン設定
+# メインドメイン: www.asrirfix.com
+# サブドメイン: asrirfix.com

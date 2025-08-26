@@ -1,5 +1,10 @@
 {
   "version": 2,
+  "name": "asrirfix-website",
+  "domains": [
+    "www.asrirfix.com",
+    "asrirfix.com"
+  ],
   "builds": [
     {
       "src": "public/**/*",
@@ -28,6 +33,18 @@
       "dest": "/public/$1"
     }
   ],
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/works.html",
+      "destination": "/",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -43,6 +60,10 @@
         {
           "key": "X-XSS-Protection",
           "value": "1; mode=block"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
         }
       ]
     },
