@@ -1,0 +1,41 @@
+# XAMPP関連
+/xampp/
+*.log
+*.tmp
+
+# 一時ファイル
+*.swp
+*.swo
+*~
+
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+
+# エディタ設定
+.vscode/
+.idea/
+*.sublime-*
+
+# 機密情報
+.env
+*.key
+*.pem
+
+# 依存関係
+node_modules/
+vendor/
+
+# ビルドファイル
+dist/
+build/
+*.min.js
+*.min.css
+
+# データベース
+*.sql
+*.db
+
+# バックアップ
+*.bak
+*.backup

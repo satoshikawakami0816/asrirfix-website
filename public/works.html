@@ -1,0 +1,3620 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+      <!-- SEO最適化 -->
+    <title>ASRIR FIX | 不動産コンサル × システム開発で企業価値を高める</title>
+    <meta name="description" content="資産価値の最大化と業務効率化をワンストップで提供。法人向けに不動産戦略・DX支援を行う総合パートナー。">
+    <meta name="keywords" content="不動産コンサル,システム開発,CRE戦略,DX支援,業務効率化,資産価値最大化,法人向け,ASRIR FIX">
+    <meta name="author" content="株式会社ASRIR FIX">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.asrirfix.co.jp">
+    <meta property="og:title" content="ASRIR FIX | 不動産 × ITソリューションで、企業価値を高める">
+    <meta property="og:description" content="資産価値の最大化と業務効率化をワンストップで。法人の成長を支えるパートナー。">
+    <meta property="og:image" content="https://www.asrirfix.co.jp/og.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="ASRIR FIX">
+    <meta property="og:locale" content="ja_JP">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@asrirfix">
+    <meta name="twitter:title" content="ASRIR FIX | 不動産 × ITソリューションで、企業価値を高める">
+    <meta name="twitter:description" content="資産価値の最大化と業務効率化をワンストップで。法人の成長を支えるパートナー。">
+    <meta name="twitter:image" content="https://www.asrirfix.co.jp/og.png">
+    
+    <!-- その他のメタタグ -->
+    <meta name="theme-color" content="#3b82f6">
+    <meta name="msapplication-TileColor" content="#3b82f6">
+    <link rel="canonical" href="https://www.asrirfix.co.jp">
+    
+    <!-- ファビコン -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    
+    <!-- 構造化データ（JSON-LD） -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ASRIR FIX",
+      "url": "https://www.asrirfix.co.jp",
+      "logo": "https://www.asrirfix.co.jp/logo.svg",
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "contactType": "sales",
+        "telephone": "+81-3-XXXX-YYYY",
+        "areaServed": "JP",
+        "availableLanguage": ["ja", "en"]
+      }],
+      "sameAs": []
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "ASRIR FIX",
+      "url": "https://www.asrirfix.co.jp",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.asrirfix.co.jp/search?q={query}",
+        "query-input": "required name=query"
+      }
+    }
+    </script>
+  
+  <style>
+    .business-pillars {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin: 5rem 0;
+    }
+    
+    .pillar {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      border: 1px solid #f3f4f6;
+      padding: 1.5rem;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .pillar:hover {
+      transform: scale(1.08);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    }
+    
+    .pillar-icon {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+    }
+    
+    .pillar h3 {
+      color: #1f2937;
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    
+    .pillar p {
+      color: #6b7280;
+      font-size: 0.875rem;
+      line-height: 1.5;
+    }
+    
+    /* アニメーション効果 */
+    .animate-bounce {
+      animation: bounce 2s infinite;
+    }
+    
+    .animate-pulse {
+      animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+    
+    .animate-spin {
+      animation: spin 3s linear infinite;
+    }
+    
+    .animate-ping {
+      animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+    
+    @keyframes bounce {
+      0%, 20%, 53%, 80%, 100% {
+        transform: translate3d(0,0,0);
+      }
+      40%, 43% {
+        transform: translate3d(0, -30px, 0);
+      }
+      70% {
+        transform: translate3d(0, -15px, 0);
+      }
+      90% {
+        transform: translate3d(0, -4px, 0);
+      }
+    }
+    
+    @keyframes pulse {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: .5;
+      }
+    }
+    
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    
+    @keyframes ping {
+      75%, 100% {
+        transform: scale(2);
+        opacity: 0;
+      }
+    }
+    
+    /* フロー図のスタイル */
+    .flow-section {
+      max-width: 80rem;
+      margin: 0 auto 5rem auto;
+    }
+    
+    .flow-section h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #1f2937;
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+    
+    .flow-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+    }
+    
+    .flow-steps {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      width: 100%;
+    }
+    
+    .flow-step {
+      background: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+      width: 100%;
+      position: relative;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .flow-step:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+    
+    .flow-step .step-title {
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+      font-size: 1.125rem;
+    }
+    
+    .flow-step .step-desc {
+      font-size: 0.875rem;
+      color: #6b7280;
+      line-height: 1.5;
+    }
+    
+    .step-blue .step-title { color: #2563eb; }
+    .step-green .step-title { color: #16a34a; }
+    .step-orange .step-title { color: #ea580c; }
+    .step-gray .step-title { color: #374151; }
+    
+    /* 矢印のスタイル */
+    .flow-arrow {
+      display: none;
+      position: absolute;
+      right: -1.5rem;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 1.5rem;
+      height: 1.5rem;
+      color: #9ca3af;
+    }
+    
+    .flow-arrow::before {
+      content: "→";
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    
+    .hero {
+      background: linear-gradient(to bottom, white, #f9fafb);
+      padding: 4rem 0;
+      text-align: center;
+      min-height: 100vh;
+    }
+    
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #1f2937;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+    }
+    
+    .hero-subtitle {
+      font-size: 1.125rem;
+      color: #4b5563;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+    
+    .section {
+      padding: 4rem 0;
+    }
+    
+    .bg-light {
+      background-color: #f9fafb;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+    
+    .section h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #1f2937;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    
+    .intro-text {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    
+    .intro-text p {
+      font-size: 1.125rem;
+      color: #4b5563;
+      line-height: 1.7;
+    }
+    
+    .service-menu, .strengths, .tech-stack, .tech-applications {
+      margin-bottom: 3rem;
+    }
+    
+    .service-menu h3, .strengths h3, .tech-stack h3, .tech-applications h3 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 1rem;
+    }
+    
+    .service-menu ul, .strengths ul, .tech-applications ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .service-menu li, .strengths li, .tech-applications li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #e5e7eb;
+      color: #4b5563;
+    }
+    
+    .service-menu li:last-child, .strengths li:last-child, .tech-applications li:last-child {
+      border-bottom: none;
+    }
+    
+    .strength-points {
+      display: grid;
+      gap: 0.75rem;
+    }
+    
+    .strength-point {
+      background: #f0f9ff;
+      border: 1px solid #bae6fd;
+      border-radius: 0.5rem;
+      padding: 0.75rem 1rem;
+      color: #0369a1;
+      font-weight: 500;
+    }
+    
+    .tech-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    
+    .tech-category {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 0.5rem;
+      padding: 1rem;
+    }
+    
+    .tech-category h4 {
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 0.5rem;
+    }
+    
+    .tech-category p {
+      color: #6b7280;
+      font-size: 0.875rem;
+    }
+    
+    .highlight-text {
+      background: #fef3c7;
+      border: 1px solid #f59e0b;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      color: #92400e;
+      font-weight: 500;
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+    
+    .case-studies {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+    
+    .case-category h3 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 1rem;
+    }
+    
+    .case-item {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+    
+    .case-item p {
+      color: #4b5563;
+      line-height: 1.6;
+    }
+    
+    .note {
+      background: #f0f9ff;
+      border: 1px solid #bae6fd;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      color: #0369a1;
+      text-align: center;
+      font-weight: 500;
+    }
+    
+    .company-info {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    
+    .info-item {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    
+    .info-item h4 {
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 0.5rem;
+    }
+    
+    .info-item p {
+      color: #6b7280;
+    }
+    
+    .philosophy, .trust-factors {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 0.5rem;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .philosophy h4, .trust-factors h4 {
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 0.75rem;
+    }
+    
+    .philosophy p {
+      color: #4b5563;
+      font-size: 1.125rem;
+      font-style: italic;
+    }
+    
+    .trust-factors ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .trust-factors li {
+      padding: 0.25rem 0;
+      color: #4b5563;
+    }
+    
+    .contact-section {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+    
+    .contact-section h2 {
+      color: white;
+    }
+    
+    .cta-strong {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    
+    .cta-text {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: white;
+    }
+    
+    .contact-info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    
+    .phone-info {
+      text-align: center;
+    }
+    
+    .phone-info h3 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    
+    .phone-number {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #fbbf24;
+    }
+    
+    .contact-form h3 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+    
+    .form-group {
+      margin-bottom: 1rem;
+    }
+    
+    .form-group label {
+      display: block;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+    }
+    
+    .form-group input, .form-group textarea {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #e5e7eb;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+    }
+    
+    .submit-btn {
+      background: #fbbf24;
+      color: #1f2937;
+      border: none;
+      border-radius: 0.5rem;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .submit-btn:hover {
+      background: #f59e0b;
+    }
+    
+    /* 代表挨拶セクションのスタイル */
+    .logo-section {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    
+    .company-logo {
+      height: 100px;
+      width: auto;
+      max-width: 300px;
+      object-fit: contain;
+    }
+    
+    .greeting-section {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    
+    .greeting-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #1f2937;
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    
+    .greeting-content {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      border: 1px solid #f3f4f6;
+      overflow: hidden;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.6s ease;
+    }
+    
+    .greeting-content.animate-on-scroll {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+    .greeting-text {
+      padding: 2.5rem;
+      line-height: 1.8;
+    }
+    
+    .greeting-text p {
+      margin-bottom: 1.5rem;
+      color: #374151;
+      font-size: 1.125rem;
+    }
+    
+    .greeting-text p:last-of-type {
+      margin-bottom: 2rem;
+    }
+    
+    .greeting-text strong {
+      color: #1f2937;
+      font-weight: 600;
+    }
+    
+    .business-list {
+      list-style: disc;
+      list-style-position: inside;
+      margin: 1.5rem 0;
+      padding: 0;
+    }
+    
+    .business-list li {
+      margin-bottom: 1rem;
+      color: #374151;
+      font-size: 1.125rem;
+      line-height: 1.6;
+      padding-left: 0.5rem;
+    }
+    
+    .business-list li:last-child {
+      margin-bottom: 0;
+    }
+    
+    .business-list strong {
+      color: #1f2937;
+      font-weight: 600;
+    }
+    
+    .signature {
+      text-align: right;
+      border-top: 2px solid #e5e7eb;
+      padding-top: 1.5rem;
+      margin-top: 2rem;
+    }
+    
+    .signature p {
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: #1f2937;
+      margin: 0;
+      line-height: 1.6;
+    }
+    
+    /* 不動産コンサル導入事例ページのスタイル */
+    .real-estate-cases {
+      background: linear-gradient(to bottom, white, #f9fafb);
+    }
+    
+    /* ヒーローセクション */
+    .hero-section {
+      position: relative;
+      overflow: hidden;
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .hero-background {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      opacity: 0.9;
+    }
+    
+    .hero-overlay {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(2px);
+      background: rgba(255, 255, 255, 0.1);
+    }
+    
+    .hero-content {
+      max-width: 80rem;
+      margin: 0 auto;
+      padding: 5rem 1.5rem;
+      text-align: center;
+      color: white;
+    }
+    
+    .logo-container {
+      margin-bottom: 1.5rem;
+    }
+    
+    .hero-logo {
+      height: 60px;
+      width: auto;
+      filter: brightness(0) invert(1);
+    }
+    
+    .hero-heading {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+      color: white;
+    }
+    
+    .hero-subtitle {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+      color: rgba(255, 255, 255, 0.9);
+      line-height: 1.6;
+    }
+    
+    .cta-button {
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 1rem;
+      padding: 1rem 2rem;
+      font-size: 1.125rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .cta-button:hover {
+      background: #2563eb;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+    }
+    
+    /* 事例セクション */
+    .cases-section {
+      max-width: 80rem;
+      margin: 0 auto;
+      padding: 4rem 1.5rem;
+    }
+    
+    .cases-heading {
+      font-size: 2.5rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 3rem;
+      color: #1f2937;
+    }
+    
+    .cases-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 2rem;
+    }
+    
+    .case-card {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      border: 1px solid #f3f4f6;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      opacity: 0;
+      transform: translateY(24px);
+    }
+    
+    .case-card.animate-on-scroll {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+    .case-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    }
+    
+    .case-image {
+      height: 11rem;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .case-image-2 {
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    }
+    
+    .case-image-3 {
+      background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    }
+    
+    .case-tag {
+      position: absolute;
+      left: 1rem;
+      top: 1rem;
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(4px);
+      padding: 0.5rem 0.75rem;
+      border-radius: 2rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: #374151;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .case-icon {
+      font-size: 1rem;
+    }
+    
+    .case-content {
+      padding: 1.5rem;
+    }
+    
+    .case-title {
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: #1f2937;
+      line-height: 1.4;
+    }
+    
+    .case-bullets {
+      list-style: disc;
+      list-style-position: inside;
+      margin-bottom: 1rem;
+      color: #6b7280;
+      font-size: 0.875rem;
+      line-height: 1.5;
+    }
+    
+    .case-bullets li {
+      margin-bottom: 0.25rem;
+    }
+    
+    .case-metrics {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+      padding-top: 0.5rem;
+    }
+    
+    .metric-item {
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 0.75rem;
+      padding: 0.75rem;
+      text-align: center;
+    }
+    
+    .metric-label {
+      font-size: 0.75rem;
+      color: #6b7280;
+      margin-bottom: 0.25rem;
+    }
+    
+    .metric-value {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #1f2937;
+      margin-bottom: 0.125rem;
+    }
+    
+    .metric-before {
+      font-size: 0.6875rem;
+      color: #6b7280;
+    }
+    
+    /* フローセクション */
+    .flow-section {
+      max-width: 80rem;
+      margin: 0 auto;
+      padding: 0 1.5rem 5rem 1.5rem;
+    }
+    
+    .flow-container {
+      background: white;
+      border: 1px solid #f3f4f6;
+      border-radius: 1.5rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+    }
+    
+    .flow-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .flow-icon {
+      font-size: 1.5rem;
+      color: #3b82f6;
+    }
+    
+    .flow-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #1f2937;
+    }
+    
+    .flow-steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    
+    .flow-step {
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 1rem;
+      padding: 1.25rem;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    
+    .flow-step:hover {
+      transform: translateY(-2px);
+    }
+    
+    .step-number {
+      width: 2rem;
+      height: 2rem;
+      background: #3b82f6;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin: 0 auto 0.5rem auto;
+    }
+    
+    .step-text {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: #374151;
+    }
+    
+    .flow-cta {
+      text-align: center;
+    }
+    
+    .flow-button {
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 0.75rem;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .flow-button:hover {
+      background: #2563eb;
+      transform: translateY(-2px);
+    }
+    
+    /* システム開発導入事例ページのスタイル */
+    .system-cases {
+      background: linear-gradient(to bottom, white, #f9fafb);
+    }
+    
+    /* システム開発ヒーローセクション */
+    .system-hero-section {
+      position: relative;
+      overflow: hidden;
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .system-hero-background {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+      opacity: 0.9;
+    }
+    
+    .system-hero-overlay {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(2px);
+      background: rgba(255, 255, 255, 0.1);
+    }
+    
+    .system-hero-content {
+      max-width: 80rem;
+      margin: 0 auto;
+      padding: 5rem 1.5rem;
+      text-align: center;
+      color: white;
+    }
+    
+    .system-logo-container {
+      margin-bottom: 1.5rem;
+    }
+    
+    .system-hero-logo {
+      height: 60px;
+      width: auto;
+      filter: brightness(0) invert(1);
+    }
+    
+    .system-hero-heading {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+      color: white;
+    }
+    
+    .system-hero-subtitle {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+      color: rgba(255, 255, 255, 0.9);
+      line-height: 1.6;
+    }
+    
+    .system-cta-button {
+      background: #059669;
+      color: white;
+      border: none;
+      border-radius: 1rem;
+      padding: 1rem 2rem;
+      font-size: 1.125rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .system-cta-button:hover {
+      background: #047857;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(5, 150, 105, 0.3);
+    }
+    
+    /* システム開発事例セクション */
+    .system-cases-section {
+      max-width: 80rem;
+      margin: 0 auto;
+      padding: 4rem 1.5rem;
+    }
+    
+    .system-cases-heading {
+      font-size: 2.5rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 3rem;
+      color: #1f2937;
+    }
+    
+    .system-cases-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 2rem;
+    }
+    
+    .system-case-card {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      border: 1px solid #f3f4f6;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      opacity: 0;
+      transform: translateY(24px);
+    }
+    
+    .system-case-card.animate-on-scroll {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+    .system-case-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    }
+    
+    .system-case-image {
+      height: 11rem;
+      background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .system-case-image-2 {
+      background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+    }
+    
+    .system-case-image-3 {
+      background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+    }
+    
+    .system-case-tag {
+      position: absolute;
+      left: 1rem;
+      top: 1rem;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(4px);
+      padding: 0.5rem 0.75rem;
+      border-radius: 2rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: #374151;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .system-case-icon {
+      font-size: 1rem;
+    }
+    
+    .system-case-content {
+      padding: 1.5rem;
+    }
+    
+    .system-case-title {
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: #1f2937;
+      line-height: 1.4;
+    }
+    
+    .system-tech-stack {
+      font-size: 0.75rem;
+      color: #6b7280;
+      margin-bottom: 1rem;
+      font-weight: 500;
+    }
+    
+    .system-case-bullets {
+      list-style: disc;
+      list-style-position: inside;
+      margin-bottom: 1rem;
+      color: #6b7280;
+      font-size: 0.875rem;
+      line-height: 1.5;
+    }
+    
+    .system-case-bullets li {
+      margin-bottom: 0.25rem;
+    }
+    
+    .system-case-metrics {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+      padding-top: 0.5rem;
+    }
+    
+    .system-metric-item {
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 0.75rem;
+      padding: 0.75rem;
+      text-align: center;
+    }
+    
+    .system-metric-label {
+      font-size: 0.75rem;
+      color: #6b7280;
+      margin-bottom: 0.25rem;
+    }
+    
+    .system-metric-value {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #1f2937;
+    }
+    
+    /* システム開発フローセクション */
+    .system-flow-section {
+      max-width: 80rem;
+      margin: 0 auto;
+      padding: 0 1.5rem 5rem 1.5rem;
+    }
+    
+    .system-flow-container {
+      background: white;
+      border: 1px solid #f3f4f6;
+      border-radius: 1.5rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+    }
+    
+    .system-flow-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .system-flow-icon {
+      font-size: 1.5rem;
+      color: #10b981;
+    }
+    
+    .system-flow-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #1f2937;
+    }
+    
+    .system-flow-steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    
+    .system-flow-step {
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 1rem;
+      padding: 1.25rem;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    
+    .system-flow-step:hover {
+      transform: translateY(-2px);
+    }
+    
+    .system-step-number {
+      width: 2rem;
+      height: 2rem;
+      background: #10b981;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin: 0 auto 0.5rem auto;
+    }
+    
+    .system-step-text {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: #374151;
+    }
+    
+    .system-flow-cta {
+      text-align: center;
+    }
+    
+    .system-flow-button {
+      background: #10b981;
+      color: white;
+      border: none;
+      border-radius: 0.75rem;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .system-flow-button:hover {
+      background: #059669;
+      transform: translateY(-2px);
+    }
+    
+    /* 法人向けお問い合わせフォームのスタイル */
+    .contact-form-section {
+      background: linear-gradient(to bottom, white, #f9fafb);
+      padding: 4rem 0;
+    }
+    
+    .contact-form-container {
+      max-width: 80rem;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+    
+    /* ヘッダー */
+    .contact-form-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    
+    .contact-logo-container {
+      margin-bottom: 2rem;
+    }
+    
+    .contact-logo {
+      height: 80px;
+      width: auto;
+    }
+    
+    .contact-form-title {
+      font-size: 3rem;
+      font-weight: 800;
+      color: #1f2937;
+      margin-bottom: 1rem;
+    }
+    
+    .contact-form-subtitle {
+      font-size: 1.125rem;
+      color: #6b7280;
+      line-height: 1.6;
+    }
+    
+    /* フォーム */
+    .contact-form-wrapper {
+      max-width: 64rem;
+      margin: 0 auto;
+    }
+    
+    .contact-form {
+      background: white;
+      border-radius: 1.5rem;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      border: 1px solid #f3f4f6;
+      padding: 2.5rem;
+      margin-bottom: 2rem;
+    }
+    
+    .form-section {
+      margin-bottom: 2rem;
+    }
+    
+    .section-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #e5e7eb;
+    }
+    
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+    
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    
+    .form-label {
+      display: block;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: #374151;
+      margin-bottom: 0.5rem;
+    }
+    
+    .required {
+      color: #ef4444;
+      margin-left: 0.25rem;
+    }
+    
+    .form-input, .form-select, .form-textarea {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #d1d5db;
+      border-radius: 0.75rem;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      background: white;
+    }
+    
+    .form-input:focus, .form-select:focus, .form-textarea:focus {
+      outline: none;
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    }
+    
+    .form-textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+    
+    /* エラーメッセージ */
+    .error-message {
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+      border-radius: 0.75rem;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      color: #dc2626;
+      font-size: 0.875rem;
+    }
+    
+    .error-message.hidden {
+      display: none;
+    }
+    
+    /* 同意・送信 */
+    .agreement-group {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-bottom: 2rem;
+    }
+    
+    .agreement-checkbox {
+      width: 1.25rem;
+      height: 1.25rem;
+      border: 2px solid #d1d5db;
+      border-radius: 0.25rem;
+      margin-top: 0.125rem;
+    }
+    
+    .agreement-label {
+      font-size: 0.875rem;
+      color: #6b7280;
+      line-height: 1.5;
+    }
+    
+    .submit-container {
+      text-align: center;
+    }
+    
+    .submit-button {
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 0.75rem;
+      padding: 1rem 2rem;
+      font-size: 1.125rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      min-width: 200px;
+    }
+    
+    .submit-button:hover:not(:disabled) {
+      background: #2563eb;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+    }
+    
+    .submit-button:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+    
+    .submit-loading.hidden {
+      display: none;
+    }
+    
+    /* 連絡先代替導線 */
+    .contact-alternative {
+      text-align: center;
+      font-size: 0.875rem;
+      color: #6b7280;
+    }
+    
+    .phone-number {
+      font-weight: 600;
+      color: #374151;
+    }
+    
+    /* 送信完了画面 */
+    .success-message {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, white, #f9fafb);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    
+    .success-message.hidden {
+      display: none;
+    }
+    
+    .success-container {
+      max-width: 48rem;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+    .success-logo-container {
+      margin-bottom: 2rem;
+    }
+    
+    .success-logo {
+      height: 100px;
+      width: auto;
+    }
+    
+    .success-content {
+      background: white;
+      border-radius: 1.5rem;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      border: 1px solid #f3f4f6;
+      padding: 2.5rem;
+    }
+    
+    .success-title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #1f2937;
+      margin-bottom: 1rem;
+    }
+    
+    .success-description {
+      font-size: 1.125rem;
+      color: #6b7280;
+      line-height: 1.6;
+    }
+    
+    /* レスポンシブデザイン */
+    @media (min-width: 768px) {
+      .flow-container {
+        flex-direction: row;
+      }
+      
+      .flow-steps {
+        flex-direction: row;
+      }
+      
+      .flow-step {
+        width: 25%;
+      }
+      
+      .flow-arrow {
+        display: block;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      
+      .business-pillars {
+        grid-template-columns: 1fr;
+      }
+      
+      .flow-steps {
+        flex-direction: column;
+      }
+      
+      .flow-step {
+        width: 100%;
+      }
+      
+      .tech-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .case-studies {
+        grid-template-columns: 1fr;
+      }
+      
+      .info-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .contact-info {
+        grid-template-columns: 1fr;
+      }
+      
+      /* 代表挨拶のモバイル対応 */
+      .greeting-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+      }
+      
+      .greeting-text {
+        padding: 1.5rem;
+      }
+      
+      .greeting-text p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+      }
+      
+      .business-list li {
+        font-size: 1rem;
+        margin-bottom: 0.75rem;
+      }
+      
+      .signature {
+        text-align: center;
+        margin-top: 1.5rem;
+      }
+      
+      /* 不動産コンサル事例のモバイル対応 */
+      .hero-heading {
+        font-size: 2rem;
+      }
+      
+      .hero-subtitle {
+        font-size: 1.125rem;
+      }
+      
+      .cases-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+      
+      .case-card {
+        max-width: 100%;
+      }
+      
+      .flow-steps {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+      }
+      
+      .flow-container {
+        padding: 1.5rem;
+      }
+      
+      /* システム開発事例のモバイル対応 */
+      .system-hero-heading {
+        font-size: 2rem;
+      }
+      
+      .system-hero-subtitle {
+        font-size: 1.125rem;
+      }
+      
+      .system-cases-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+      
+      .system-case-card {
+        max-width: 100%;
+      }
+      
+      .system-flow-steps {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+      }
+      
+      .system-flow-container {
+        padding: 1.5rem;
+      }
+    }
+    
+    /* 会社概要ページのスタイル */
+    .company-overview {
+      background: linear-gradient(to bottom, white, #f9fafb);
+    }
+    
+    /* ヒーローセクション */
+    .company-hero-section {
+      position: relative;
+      overflow: hidden;
+      padding: 4rem 0;
+    }
+    
+    .company-hero-background {
+      position: relative;
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0.04) 0%, transparent 60%);
+    }
+    
+    .company-hero-content {
+      max-width: 80rem;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      text-align: center;
+    }
+    
+    .company-logo-container {
+      margin-bottom: 1.5rem;
+    }
+    
+    .company-hero-logo {
+      height: 72px;
+      width: auto;
+    }
+    
+    .company-hero-title {
+      font-size: 3rem;
+      font-weight: 800;
+      color: #1f2937;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+    
+    .company-hero-subtitle {
+      font-size: 1.125rem;
+      color: #6b7280;
+      line-height: 1.6;
+    }
+    
+    /* 基本情報セクション */
+    .company-info-section {
+      max-width: 80rem;
+      margin: 0 auto;
+      padding: 0 1.5rem 1.5rem 1.5rem;
+    }
+    
+    .company-info-container {
+      margin-bottom: 3rem;
+    }
+    
+    .company-info-card {
+      background: white;
+      border: 1px solid #f3f4f6;
+      border-radius: 1.5rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    
+    .company-info-content {
+      padding: 2rem;
+    }
+    
+    .company-info-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 1.5rem;
+    }
+    
+    .company-info-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .company-info-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+    
+    .company-info-icon {
+      font-size: 1.25rem;
+      margin-top: 0.125rem;
+      flex-shrink: 0;
+    }
+    
+    .company-info-details {
+      flex: 1;
+    }
+    
+    .company-info-label {
+      font-size: 0.75rem;
+      color: #6b7280;
+      margin-bottom: 0.25rem;
+    }
+    
+    .company-info-value {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: #374151;
+      line-height: 1.4;
+      word-break: break-word;
+    }
+    
+    .company-map-container {
+      position: relative;
+      min-height: 320px;
+    }
+    
+    .company-map {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    
+    /* 事業内容セクション */
+    .company-business-section {
+      max-width: 80rem;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+    
+    .company-business-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 3rem;
+      color: #1f2937;
+    }
+    
+    .company-business-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+    
+    .company-business-card {
+      background: white;
+      border: 1px solid #f3f4f6;
+      border-radius: 1rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      height: 100%;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    
+    .company-business-card.animate-on-scroll {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+    .company-business-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+    
+    .business-card-header {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+    
+    .business-card-icon {
+      font-size: 1.25rem;
+    }
+    
+    .business-card-title {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #3b82f6;
+    }
+    
+    .business-card-body {
+      font-size: 0.875rem;
+      color: #6b7280;
+      line-height: 1.5;
+    }
+    
+    /* 沿革セクション */
+    .company-history-section {
+      max-width: 80rem;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem 1.5rem;
+    }
+    
+    .company-history-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 3rem;
+      color: #1f2937;
+    }
+    
+    .company-history-container {
+      max-width: 64rem;
+      margin: 0 auto;
+    }
+    
+    .history-timeline {
+      position: relative;
+    }
+    
+    .timeline-line {
+      position: absolute;
+      left: 1rem;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: linear-gradient(to bottom, #dbeafe, transparent);
+    }
+    
+    .history-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .history-item {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      position: relative;
+    }
+    
+    .history-marker {
+      width: 2rem;
+      height: 2rem;
+      background: #3b82f6;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 600;
+      flex-shrink: 0;
+      z-index: 1;
+    }
+    
+    .history-year {
+      width: 5rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #374151;
+      text-align: right;
+      flex-shrink: 0;
+      margin-top: 0.25rem;
+    }
+    
+    .history-card {
+      background: white;
+      border: 1px solid #f3f4f6;
+      border-radius: 1rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 1.25rem;
+      flex: 1;
+    }
+    
+    .history-text {
+      font-size: 0.875rem;
+      color: #6b7280;
+      line-height: 1.5;
+      margin: 0;
+    }
+    
+    /* CTAセクション */
+    .company-cta-section {
+      max-width: 80rem;
+      margin: 0 auto;
+      padding: 0 1.5rem 5rem 1.5rem;
+    }
+    
+    .company-cta-container {
+      background: white;
+      border: 1px solid #f3f4f6;
+      border-radius: 1.5rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      text-align: center;
+    }
+    
+    .company-cta-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 0.5rem;
+    }
+    
+    .company-cta-subtitle {
+      color: #6b7280;
+      margin-bottom: 1rem;
+    }
+    
+    .company-cta-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+    
+    .company-cta-button {
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.75rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+    
+    .company-cta-button.primary {
+      background: #3b82f6;
+      color: white;
+      box-shadow: 0 4px 6px rgba(59, 130, 246, 0.2);
+    }
+    
+    .company-cta-button.primary:hover {
+      background: #2563eb;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+    }
+    
+    .company-cta-button.secondary {
+      background: white;
+      color: #374151;
+      border: 1px solid #d1d5db;
+    }
+    
+    .company-cta-button.secondary:hover {
+      background: #f9fafb;
+      transform: translateY(-2px);
+    }
+    
+    /* 会社概要のモバイル対応 */
+    .company-hero-title {
+      font-size: 2rem;
+    }
+    
+    .company-info-card {
+      grid-template-columns: 1fr;
+    }
+    
+    .company-info-content {
+      padding: 1.5rem;
+    }
+    
+    .company-map-container {
+      min-height: 240px;
+    }
+    
+    .company-business-grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    
+    .company-business-card {
+      padding: 1.25rem;
+    }
+    
+    .company-history-title,
+    .company-business-title {
+      font-size: 2rem;
+    }
+    
+    .history-item {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    
+    .history-year {
+      text-align: left;
+      margin-top: 0;
+    }
+    
+    .company-cta-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .company-cta-button {
+      width: 100%;
+      max-width: 300px;
+      text-align: center;
+    }
+    
+    /* トップページのスタイル */
+    .top-page {
+      background: linear-gradient(to bottom, white, #f9fafb);
+    }
+    
+    /* ヒーローセクション */
+    .hero-section {
+      position: relative;
+      overflow: hidden;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+    
+    .hero-background {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      opacity: 0.1;
+    }
+    
+    .hero-overlay {
+      position: relative;
+      width: 100%;
+      backdrop-filter: blur(2px);
+      background: rgba(255, 255, 255, 0.5);
+    }
+    
+    .hero-content {
+      max-width: 80rem;
+      margin: 0 auto;
+      padding: 4rem 1.5rem;
+      text-align: center;
+    }
+    
+    .hero-logo-container {
+      margin-bottom: 1.5rem;
+    }
+    
+    .hero-logo {
+      height: 72px;
+      width: auto;
+    }
+    
+    .hero-title {
+      font-size: 3rem;
+      font-weight: 800;
+      color: #1f2937;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+    
+    .hero-subtitle {
+      font-size: 1.125rem;
+      color: #6b7280;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+    
+    .hero-buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    
+    .hero-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 1rem 1.5rem;
+      border-radius: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      min-width: 200px;
+      justify-content: center;
+    }
+    
+    .hero-button.primary {
+      background: #3b82f6;
+      color: white;
+      box-shadow: 0 4px 6px rgba(59, 130, 246, 0.2);
+    }
+    
+    .hero-button.primary:hover {
+      background: #2563eb;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+    }
+    
+    .hero-button.secondary {
+      background: white;
+      color: #374151;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .hero-button.secondary:hover {
+      background: #f9fafb;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+    
+    .button-icon {
+      font-size: 1rem;
+    }
+    
+    /* 事業領域セクション */
+    .services-section {
+      max-width: 80rem;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+    
+    .services-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #1f2937;
+    }
+    
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+    
+    .service-card {
+      background: white;
+      border: 1px solid #f3f4f6;
+      border-radius: 1rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      height: 100%;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    
+    .service-card.animate-on-scroll {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+    .service-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+    
+    .service-card-header {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+    
+    .service-card-icon {
+      font-size: 1.5rem;
+    }
+    
+    .service-card-title {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #3b82f6;
+    }
+    
+    .service-card-desc {
+      font-size: 0.875rem;
+      color: #6b7280;
+      line-height: 1.5;
+      margin-bottom: 1rem;
+    }
+    
+    .service-card-link {
+      font-size: 0.875rem;
+      color: #1d4ed8;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+    
+    .service-card:hover .service-card-link {
+      opacity: 1;
+    }
+    
+    .link-arrow {
+      font-size: 0.75rem;
+    }
+    
+    /* 事例ダイジェストセクション */
+    .cases-section {
+      max-width: 80rem;
+      margin: 0 auto;
+      padding: 0 1.5rem 3rem 1.5rem;
+    }
+    
+    .cases-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #1f2937;
+    }
+    
+    .cases-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+    
+    .case-card {
+      background: white;
+      border: 1px solid #f3f4f6;
+      border-radius: 1rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      height: 100%;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    
+    .case-card.animate-on-scroll {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+    .case-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+    
+    .case-card-image {
+      position: relative;
+      height: 160px;
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .case-card-image.real-estate-case {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+    
+    .case-card-image.system-case {
+      background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    }
+    
+    .case-badge {
+      position: absolute;
+      left: 1rem;
+      top: 1rem;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(4px);
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: #374151;
+    }
+    
+    .case-card-content {
+      padding: 1.25rem;
+    }
+    
+    .case-card-title {
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 1.4;
+      color: #1f2937;
+      margin: 0;
+    }
+    
+    .case-card-desc {
+      font-size: 0.875rem;
+      color: #6b7280;
+      line-height: 1.5;
+      margin-top: 0.5rem;
+    }
+    
+    .cases-more {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+    
+    .cases-more-button {
+      padding: 0.75rem 1.5rem;
+      border: 1px solid #d1d5db;
+      border-radius: 0.75rem;
+      font-weight: 600;
+      text-decoration: none;
+      color: #374151;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+    
+    .cases-more-button:hover {
+      background: #f9fafb;
+      transform: translateY(-2px);
+    }
+    
+    .greeting-signature {
+      font-weight: 600;
+      color: #374151;
+      margin: 0;
+      margin-top: 1rem;
+    }
+    
+    /* 代表挨拶セクション */
+    .greeting-section {
+      max-width: 80rem;
+      margin: 0 auto;
+      padding: 0 1.5rem 3rem 1.5rem;
+    }
+    
+    .greeting-container {
+      background: white;
+      border: 1px solid #f3f4f6;
+      border-radius: 1.5rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+    }
+    
+    .greeting-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 0.75rem;
+    }
+    
+    .greeting-text {
+      color: #6b7280;
+      font-size: 0.875rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+    
+    .hidden-br {
+      display: none;
+    }
+    
+    .greeting-link {
+      margin-top: 1rem;
+    }
+    
+    .greeting-more {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      color: #1d4ed8;
+      font-weight: 600;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    
+    .greeting-more:hover {
+      color: #1e40af;
+    }
+    
+    /* CTAセクション */
+    .cta-section {
+      max-width: 80rem;
+      margin: 0 auto;
+      padding: 0 1.5rem 5rem 1.5rem;
+    }
+    
+    .cta-container {
+      background: linear-gradient(to right, #3b82f6, #4f46e5);
+      color: white;
+      border-radius: 1.5rem;
+      padding: 2rem 2.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    
+    .cta-content h3 {
+      margin: 0;
+    }
+    
+    .cta-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+    
+    .cta-subtitle {
+      opacity: 0.9;
+      margin: 0;
+    }
+    
+    .cta-buttons {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+    
+    .cta-button {
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.75rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+    
+    .cta-button.primary {
+      background: white;
+      color: #3b82f6;
+      box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2);
+    }
+    
+    .cta-button.primary:hover {
+      background: #f8fafc;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(255, 255, 255, 0.3);
+    }
+    
+    .cta-button.secondary {
+      background: transparent;
+      color: white;
+      border: 1px solid rgba(255, 255, 255, 0.4);
+    }
+    
+    .cta-button.secondary:hover {
+      background: rgba(255, 255, 255, 0.1);
+      transform: translateY(-2px);
+    }
+    
+    /* トップページのモバイル対応 */
+    .hero-title {
+      font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+      font-size: 1rem;
+    }
+    
+    .hero-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .hero-button {
+      min-width: 180px;
+      padding: 0.875rem 1.25rem;
+    }
+    
+    .services-grid,
+    .cases-grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    
+    .service-card,
+    .case-card {
+      padding: 1.25rem;
+    }
+    
+    .services-title,
+    .cases-title {
+      font-size: 2rem;
+    }
+    
+    .cta-container {
+      padding: 1.5rem;
+      gap: 1rem;
+    }
+    
+    .cta-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .cta-button {
+      width: 100%;
+      max-width: 300px;
+      text-align: center;
+    }
+    
+    .hidden-br {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="/index.html"><img src="/assets/brand/ASRIR_FIX_logo.png" alt="ASRIR FIX" style="height:32px;"></a>
+      <button class="mobile-nav-toggle" aria-label="メニュー"><span></span><span></span><span></span></button>
+      <nav class="nav" aria-label="主ナビゲーション">
+        <a href="/feature.html">ASRIR FIXについて</a>
+        <a href="/service.html">事業内容</a>
+        <a href="/works.html">実績・事例</a>
+        <a href="/topics.html">新着情報</a>
+        <a href="/company.html">会社概要</a>
+        <a href="/contact.html" class="cta" style="margin-left:24px;">お問い合わせ</a>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <!-- トップページ -->
+    <section class="top-page">
+      {/* ヒーロー */}
+      <div class="hero-section">
+        <div class="hero-background">
+          <div class="hero-overlay">
+            <div class="hero-content">
+                          <div class="hero-logo-container">
+              <img src="/logo.svg" alt="ASRIR FIX Logo" class="hero-logo">
+            </div>
+            <h1 class="hero-title">未来をつくる不動産コンサル × システム開発</h1>
+            <p class="hero-subtitle">法人の課題を「資産」と「IT」で解決する総合パートナー</p>
+            <div class="hero-buttons">
+              <a href="#contact" class="hero-button primary">
+                無料相談を申し込む
+              </a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* 事業アイコン図 */}
+      <div class="services-section">
+        <h2 class="services-title">事業紹介</h2>
+        <div class="services-grid">
+          <div class="service-card animate-on-scroll">
+            <h3 class="service-card-title">不動産コンサル</h3>
+            <p class="service-card-desc">オフィス移転 / 収益改善 / CRE戦略</p>
+          </div>
+          <div class="service-card animate-on-scroll">
+            <h3 class="service-card-title">システム開発</h3>
+            <p class="service-card-desc">Python・Java・Laravel を活用したDX推進</p>
+          </div>
+          <div class="service-card animate-on-scroll">
+            <h3 class="service-card-title">人材育成・家電修理</h3>
+            <p class="service-card-desc">研修とOJTで未来のエンジニアを育成</p>
+          </div>
+        </div>
+      </div>
+
+      {/* 導入事例ダイジェスト */}
+      <div id="cases" class="cases-section">
+        <h2 class="cases-title">導入事例</h2>
+        <div class="cases-grid">
+          <div class="case-card animate-on-scroll">
+            <h3 class="case-card-title">オフィス移転で年間3,000万円削減</h3>
+            <p class="case-card-desc">不動産戦略でコスト最適化</p>
+          </div>
+          <div class="case-card animate-on-scroll">
+            <h3 class="case-card-title">請求業務を自動化し月60時間削減</h3>
+            <p class="case-card-desc">システム導入で業務効率化</p>
+          </div>
+          <div class="case-card animate-on-scroll">
+            <h3 class="case-card-title">CRE戦略で資産効率30%改善</h3>
+            <p class="case-card-desc">資産ポートフォリオ再設計</p>
+          </div>
+        </div>
+        <div class="cases-more">
+          <a href="#cases" class="cases-more-button">導入事例をもっと見る</a>
+        </div>
+      </div>
+
+      {/* 代表挨拶抜粋 */}
+      <div class="greeting-section">
+        <div class="greeting-container">
+          <h2 class="greeting-title">代表挨拶</h2>
+          <p class="greeting-text">
+            「感謝の精神と顧客目線を基盤に、最適な解決策を追求する」理念のもと、
+            不動産とITの両軸で法人顧客の成長を支えます。
+          </p>
+          <p class="greeting-signature">株式会社ASRIR FIX 代表取締役 川上 悟</p>
+        </div>
+      </div>
+
+      {/* CTA */}
+      <div class="cta-section">
+        <div class="cta-container">
+          <h2 class="cta-title">まずは無料相談から</h2>
+          <p class="cta-subtitle">不動産戦略・システム開発のご相談を承ります。お気軽にお問い合わせください。</p>
+          <a href="#contact" class="cta-button primary">
+            お問い合わせはこちら
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 会社概要ページ -->
+    <section class="company-overview">
+      {/* ヒーロー */}
+      <div class="company-hero-section">
+        <div class="company-hero-background">
+          <div class="company-hero-content">
+            <div class="company-logo-container">
+              <img src="/assets/brand/ASRIR_FIX_logo.png" alt="ASRIR FIX Logo" class="company-hero-logo">
+            </div>
+            <h1 class="company-hero-title">会社概要</h1>
+            <p class="company-hero-subtitle">感謝の精神と顧客目線を基盤に、企業の資産価値と業務効率を高めるパートナー。</p>
+          </div>
+        </div>
+      </div>
+
+      {/* 基本情報 */}
+      <div class="company-info-section">
+        <div class="company-info-container">
+          <div class="company-info-card">
+            <div class="company-info-content">
+              <h2 class="company-info-title">基本情報</h2>
+              <ul class="company-info-list">
+                <li class="company-info-item">
+                  <span class="company-info-icon">🏢</span>
+                  <div class="company-info-details">
+                    <p class="company-info-label">会社名</p>
+                    <p class="company-info-value">株式会社ASRIR FIX</p>
+                  </div>
+                </li>
+                <li class="company-info-item">
+                  <span class="company-info-icon">👤</span>
+                  <div class="company-info-details">
+                    <p class="company-info-label">代表者</p>
+                    <p class="company-info-value">代表取締役 川上 悟</p>
+                  </div>
+                </li>
+                <li class="company-info-item">
+                  <span class="company-info-icon">📍</span>
+                  <div class="company-info-details">
+                    <p class="company-info-label">所在地</p>
+                    <p class="company-info-value">〒123-4567 東京都〇〇区〇〇 1-2-3 ASRIRビル 5F</p>
+                  </div>
+                </li>
+                <li class="company-info-item">
+                  <span class="company-info-icon">📞</span>
+                  <div class="company-info-details">
+                    <p class="company-info-label">電話</p>
+                    <p class="company-info-value">03-XXXX-YYYY（法人専用）</p>
+                  </div>
+                </li>
+                <li class="company-info-item">
+                  <span class="company-info-icon">✉️</span>
+                  <div class="company-info-details">
+                    <p class="company-info-label">メール</p>
+                    <p class="company-info-value">info@asrirfix.co.jp</p>
+                  </div>
+                </li>
+                <li class="company-info-item">
+                  <span class="company-info-icon">🌐</span>
+                  <div class="company-info-details">
+                    <p class="company-info-label">Web</p>
+                    <p class="company-info-value">https://www.asrirfix.co.jp</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="company-map-container">
+              <iframe
+                title="Google Maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.953053!2d139.767125!3d35.681236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z44CSMTAwLTAwMTEg5p2x5Lqs6YO95riv5Yy66KW_5Z-O!5e0!3m2!1sja!2sjp!4v1680000000000"
+                class="company-map"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* 事業内容 */}
+      <div class="company-business-section">
+        <h2 class="company-business-title">事業内容</h2>
+        <div class="company-business-grid">
+          <div class="company-business-card animate-on-scroll">
+            <div class="business-card-header">
+              <span class="business-card-icon">🏭</span>
+              <span class="business-card-title">不動産コンサルティング</span>
+            </div>
+            <p class="business-card-body">オフィス移転、投資不動産の収益改善、CRE戦略の立案・実行支援。</p>
+          </div>
+          <div class="company-business-card animate-on-scroll">
+            <div class="business-card-header">
+              <span class="business-card-icon">👥</span>
+              <span class="business-card-title">システム開発</span>
+            </div>
+            <p class="business-card-body">Python・Java・Laravel による業務システム／Webアプリ開発、データ統合・自動化。</p>
+          </div>
+          <div class="company-business-card animate-on-scroll">
+            <div class="business-card-header">
+              <span class="business-card-icon">🔧</span>
+              <span class="business-card-title">人材育成・家電修理</span>
+            </div>
+            <p class="business-card-body">技術研修とOJTによるエンジニア育成、現場支援。</p>
+          </div>
+        </div>
+      </div>
+
+      {/* 沿革 */}
+      <div class="company-history-section">
+        <h2 class="company-history-title">沿革</h2>
+        <div class="company-history-container">
+          <div class="history-timeline">
+            <div class="timeline-line"></div>
+            <ul class="history-list">
+              <li class="history-item">
+                <div class="history-marker">1</div>
+                <div class="history-year">2023</div>
+                <div class="history-card">
+                  <p class="history-text">ASRIR FIX を設立。家電修理・人材育成事業を開始。</p>
+                </div>
+              </li>
+              <li class="history-item">
+                <div class="history-marker">2</div>
+                <div class="history-year">2024</div>
+                <div class="history-card">
+                  <p class="history-text">不動産コンサル・システム開発事業を立ち上げ。法人向け支援を拡大。</p>
+                </div>
+              </li>
+              <li class="history-item">
+                <div class="history-marker">3</div>
+                <div class="history-year">2025</div>
+                <div class="history-card">
+                  <p class="history-text">導入事例を累計50社に拡大。CRE 戦略とDX支援を強化。</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {/* CTA */}
+      <div class="company-cta-section">
+        <div class="company-cta-container">
+          <h3 class="company-cta-title">まずは無料相談から</h3>
+          <p class="company-cta-subtitle">不動産戦略・システム開発のご相談を承ります。法人専用ダイヤル：03-XXXX-YYYY</p>
+          <div class="company-cta-buttons">
+            <a href="#contact" class="company-cta-button primary">お問い合わせ</a>
+            <a href="/download/company-profile.pdf" class="company-cta-button secondary">会社案内PDF</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 不動産コンサル導入事例ページ -->
+    <section class="real-estate-cases">
+      {/* ヒーロー */}
+      <div class="hero-section">
+        <div class="hero-background">
+          <div class="hero-overlay">
+            <div class="hero-content">
+              <div class="logo-container">
+                <img src="/assets/brand/ASRIR_FIX_logo.png" alt="ASRIR FIX Logo" class="hero-logo">
+              </div>
+              <h1 class="hero-heading">不動産 × 戦略コンサルで、企業価値を高める</h1>
+              <p class="hero-subtitle">オフィス移転・収益改善・CRE戦略まで。経営視点で成果にこだわる不動産コンサルティング。</p>
+              <div class="hero-cta">
+                <button class="cta-button">不動産の無料相談を予約</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* 事例カード */}
+      <div class="cases-section">
+        <h2 class="cases-heading">導入事例</h2>
+        <div class="cases-grid">
+          <div class="case-card animate-on-scroll">
+            <div class="case-image">
+              <div class="case-tag">
+                <span class="case-icon">🏢</span>
+                <span>オフィス移転 / コスト最適化</span>
+              </div>
+            </div>
+            <div class="case-content">
+              <h3 class="case-title">本社移転による年間コスト3,000万円削減</h3>
+              <ul class="case-bullets">
+                <li>賃料 約25%削減（年間3,000万円）</li>
+                <li>150名規模に最適化 / IT・会議室効率化</li>
+                <li>従業員満足度 80% が"働きやすくなった"</li>
+              </ul>
+              <div class="case-metrics">
+                <div class="metric-item">
+                  <p class="metric-label">賃料</p>
+                  <p class="metric-value">-25%</p>
+                </div>
+                <div class="metric-item">
+                  <p class="metric-label">年間削減額</p>
+                  <p class="metric-value">3,000万円</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="case-card animate-on-scroll">
+            <div class="case-image case-image-2">
+              <div class="case-tag">
+                <span class="case-icon">📈</span>
+                <span>投資用不動産 / 収益改善</span>
+              </div>
+            </div>
+            <div class="case-content">
+              <h3 class="case-title">稼働率65% → 95%、賃料収入1.5倍</h3>
+              <ul class="case-bullets">
+                <li>ターゲット見直し & リノベーション</li>
+                <li>リーシング戦略を再設計（業種分散）</li>
+                <li>年間賃料 6,000万円 → 9,000万円</li>
+              </ul>
+              <div class="case-metrics">
+                <div class="metric-item">
+                  <p class="metric-label">稼働率</p>
+                  <p class="metric-value">95%</p>
+                  <p class="metric-before">Before: 65%</p>
+                </div>
+                <div class="metric-item">
+                  <p class="metric-label">年賃料</p>
+                  <p class="metric-value">9,000万</p>
+                  <p class="metric-before">Before: 6,000万</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="case-card animate-on-scroll">
+            <div class="case-image case-image-3">
+              <div class="case-tag">
+                <span class="case-icon">💰</span>
+                <span>CRE戦略 / 資産効率化</span>
+              </div>
+            </div>
+            <div class="case-content">
+              <h3 class="case-title">資産効率30%改善、CF 2.0 → 2.6億円</h3>
+              <ul class="case-bullets">
+                <li>資産棚卸とポートフォリオ最適化</li>
+                <li>不採算売却 → 高収益へ再投資</li>
+                <li>CF安定化で新規投資余力を確保</li>
+              </ul>
+              <div class="case-metrics">
+                <div class="metric-item">
+                  <p class="metric-label">資産効率</p>
+                  <p class="metric-value">+30%</p>
+                </div>
+                <div class="metric-item">
+                  <p class="metric-label">年間CF</p>
+                  <p class="metric-value">2.6億</p>
+                  <p class="metric-before">Before: 2.0億</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* 進め方（フロー） */}
+      <div class="flow-section">
+        <div class="flow-container">
+          <div class="flow-header">
+            <span class="flow-icon">📍</span>
+            <h3 class="flow-title">コンサルティングの進め方</h3>
+          </div>
+          <div class="flow-steps">
+            <div class="flow-step">
+              <div class="step-number">1</div>
+              <p class="step-text">課題ヒアリング</p>
+            </div>
+            <div class="flow-step">
+              <div class="step-number">2</div>
+              <p class="step-text">戦略提案</p>
+            </div>
+            <div class="flow-step">
+              <div class="step-number">3</div>
+              <p class="step-text">実行支援</p>
+            </div>
+            <div class="flow-step">
+              <div class="step-number">4</div>
+              <p class="step-text">成果検証</p>
+            </div>
+          </div>
+          <div class="flow-cta">
+            <button class="flow-button">事例の詳細を相談する</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- システム開発導入事例ページ -->
+    <section class="system-cases">
+      {/* ヒーロー */}
+      <div class="system-hero-section">
+        <div class="system-hero-background">
+          <div class="system-hero-overlay">
+            <div class="system-hero-content">
+              <div class="system-logo-container">
+                <img src="/assets/brand/ASRIR_FIX_logo.png" alt="ASRIR FIX Logo" class="system-hero-logo">
+              </div>
+              <h1 class="system-hero-heading">現場で使えるDX —— Python × Java × Laravel</h1>
+              <p class="system-hero-subtitle">業務効率化・可視化・自動化をワンストップで。成果に直結するシステム開発。</p>
+              <div class="system-hero-cta">
+                <button class="system-cta-button">システム開発の無料相談を予約</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* 事例カード */}
+      <div class="system-cases-section">
+        <h2 class="system-cases-heading">導入事例</h2>
+        <div class="system-cases-grid">
+          <div class="system-case-card animate-on-scroll">
+            <div class="system-case-image">
+              <div class="system-case-tag">
+                <span class="system-case-icon">⚙️</span>
+                <span>請求自動化 / ワークフロー</span>
+              </div>
+            </div>
+            <div class="system-case-content">
+              <h3 class="system-case-title">請求業務を自動化し、月60時間の作業を削減</h3>
+              <p class="system-tech-stack">Tech Stack: Laravel / Python</p>
+              <ul class="system-case-bullets">
+                <li>伝票集計→請求書発行→送付をワンクリック化</li>
+                <li>入力ミス削減（ヒューマンエラー -70%）</li>
+                <li>承認フロー/権限管理/ログ監査に対応</li>
+              </ul>
+              <div class="system-case-metrics">
+                <div class="system-metric-item">
+                  <p class="system-metric-label">月間工数</p>
+                  <p class="system-metric-value">-60時間</p>
+                </div>
+                <div class="system-metric-item">
+                  <p class="system-metric-label">エラー率</p>
+                  <p class="system-metric-value">-70%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="system-case-card animate-on-scroll">
+            <div class="system-case-image system-case-image-2">
+              <div class="system-case-tag">
+                <span class="system-case-icon">🗄️</span>
+                <span>CRM統合 / データ基盤</span>
+              </div>
+            </div>
+            <div class="system-case-content">
+              <h3 class="system-case-title">顧客データを一元化し、商談化率を1.4倍に</h3>
+              <p class="system-tech-stack">Tech Stack: Java / Spring Boot / PostgreSQL</p>
+              <ul class="system-case-bullets">
+                <li>複数SaaSのAPI連携でマスタ統合</li>
+                <li>重複/欠損を自動検知・クレンジング</li>
+                <li>見込み→商談→受注の可視化ダッシュボード</li>
+              </ul>
+              <div class="system-case-metrics">
+                <div class="system-metric-item">
+                  <p class="system-metric-label">商談化率</p>
+                  <p class="system-metric-value">×1.4</p>
+                </div>
+                <div class="system-metric-item">
+                  <p class="system-metric-label">リード重複</p>
+                  <p class="system-metric-value">-85%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="system-case-card animate-on-scroll">
+            <div class="system-case-image system-case-image-3">
+              <div class="system-case-tag">
+                <span class="system-case-icon">📊</span>
+                <span>ETL/自動化 / 分析</span>
+              </div>
+            </div>
+            <div class="system-case-content">
+              <h3 class="system-case-title">Python ETLで毎日集計、意思決定の即時化</h3>
+              <p class="system-tech-stack">Tech Stack: Python / FastAPI / BigQuery</p>
+              <ul class="system-case-bullets">
+                <li>売上・在庫・広告を夜間バッチで統合</li>
+                <li>閾値超えをSlack通知（異常検知）</li>
+                <li>役員向けKPIレポートを自動配信</li>
+              </ul>
+              <div class="system-case-metrics">
+                <div class="system-metric-item">
+                  <p class="system-metric-label">レポート作成時間</p>
+                  <p class="system-metric-value">当日化(-100%)</p>
+                </div>
+                <div class="system-metric-item">
+                  <p class="system-metric-label">意思決定速度</p>
+                  <p class="system-metric-value">+2倍</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* 進め方（フロー） */}
+      <div class="system-flow-section">
+        <div class="system-flow-container">
+          <div class="system-flow-header">
+            <span class="system-flow-icon">🖥️</span>
+            <h3 class="system-flow-title">開発の進め方</h3>
+          </div>
+          <div class="system-flow-steps">
+            <div class="system-flow-step">
+              <div class="system-step-number">1</div>
+              <p class="system-step-text">要件定義</p>
+            </div>
+            <div class="system-flow-step">
+              <div class="system-step-number">2</div>
+              <p class="system-step-text">設計・開発</p>
+            </div>
+            <div class="system-flow-step">
+              <div class="system-step-number">3</div>
+              <p class="system-step-text">テスト導入</p>
+            </div>
+            <div class="system-flow-step">
+              <div class="system-step-number">4</div>
+              <p class="system-step-text">運用・保守</p>
+            </div>
+          </div>
+          <div class="system-flow-cta">
+            <button class="system-flow-button">課題に合う事例を相談する</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 不動産コンサル事業 -->
+    <section class="section">
+      <div class="container">
+        <h2>不動産コンサル事業</h2>
+        <div class="intro-text">
+          <p>企業にとって不動産は"コスト"であると同時に"資産"です。<br>
+          ASRIR FIXは、オフィス・店舗・投資不動産の戦略的活用を通じて、法人様の収益力とブランド力を高めます。</p>
+        </div>
+        
+        <div class="service-menu">
+          <h3>サービスメニュー</h3>
+          <ul>
+            <li>事業用不動産の活用・移転コンサル</li>
+            <li>投資不動産の収益性診断・改善</li>
+            <li>CRE戦略（企業不動産戦略）提案</li>
+            <li>物件取得から運用・売却までのワンストップ支援</li>
+          </ul>
+        </div>
+        
+        <div class="strengths">
+          <h3>強み</h3>
+          <div class="strength-points">
+            <div class="strength-point">✔ 中小企業から大手法人まで対応可能</div>
+            <div class="strength-point">✔ 「収益改善」「節税」「資産最適化」に強み</div>
+            <div class="strength-point">✔ 単なる仲介ではなくコンサル型支援</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- システム開発事業 -->
+    <section class="section bg-light">
+      <div class="container">
+        <h2>システム開発事業</h2>
+        <div class="intro-text">
+          <p><strong>現場で本当に使えるシステムを、現場の視点から。</strong><br>
+          ASRIR FIXは、売上・請求管理／CRM／在庫・案件管理／予約・EC など、業務フローに直結するWebアプリをゼロから設計・開発します。<br>
+          "運用して成果が出ること"を最優先に、短期導入 → 改善→ 拡張 のサイクルでスピーディに価値をお届けします。</p>
+        </div>
+        
+        <div class="service-menu">
+          <h3>サービスメニュー</h3>
+          <ul>
+            <li>売上・請求書自動化システムの設計・開発</li>
+            <li>CRM／顧客管理・データ統合（帳票出力、ダッシュボード可視化）</li>
+            <li>EC／予約／ポータル 等の業務アプリ開発</li>
+            <li>既存システムのリプレイス／API連携、運用改善コンサル</li>
+          </ul>
+        </div>
+        
+        <div class="tech-stack">
+          <h3>使用言語・技術</h3>
+          <div class="tech-grid">
+            <div class="tech-category">
+              <h4>言語</h4>
+              <p>Python（パイソン）／Java（ジャバ）／PHP</p>
+            </div>
+            <div class="tech-category">
+              <h4>フレームワーク</h4>
+              <p>Django・FastAPI（Python）／Spring Boot（Java）／Laravel（PHP）</p>
+            </div>
+            <div class="tech-category">
+              <h4>フロントエンド／UI</h4>
+              <p>Tailwind CSS（必要に応じて React / Vue 連携）</p>
+            </div>
+            <div class="tech-category">
+              <h4>インフラ例</h4>
+              <p>AWS / GCP、Docker、RDB（MySQL・PostgreSQL）</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="tech-applications">
+          <h3>適用シーンの目安</h3>
+          <ul>
+            <li><strong>Python：</strong>データ処理・自動化、AI/LLM 連携、ETL、バッチ基盤</li>
+            <li><strong>Java：</strong>基幹系との連携、大規模・高信頼性が必要な業務システム</li>
+            <li><strong>Laravel(PHP)：</strong>業務管理・請求/売上などのスピード開発と拡張</li>
+          </ul>
+          <p class="highlight-text"><strong>成果に直結する"運用前提の開発"</strong>で、コスト削減と業務効率化を同時に実現します。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 実績・導入事例 -->
+    <section class="section">
+      <div class="container">
+        <h2>実績・導入事例</h2>
+        <div class="case-studies">
+          <div class="case-category">
+            <h3>🏢 不動産</h3>
+            <div class="case-item">
+              <p>「中小企業のオフィス移転を支援し、年間コストを<strong>20%削減</strong>」</p>
+            </div>
+            <div class="case-item">
+              <p>「法人向け収益不動産の利回り改善を実現」</p>
+            </div>
+          </div>
+          
+          <div class="case-category">
+            <h3>💻 システム開発</h3>
+            <div class="case-item">
+              <p>「請求業務を自動化し、年間で作業時間を<strong>50%削減</strong>」</p>
+            </div>
+            <div class="case-item">
+              <p>「営業データの一元管理で売上分析スピードを向上」</p>
+            </div>
+          </div>
+        </div>
+        <p class="note">👉 法人顧客は数字の成果に響きます。事例には必ず「◯%改善」「◯時間削減」などを盛り込みましょう。</p>
+      </div>
+    </section>
+
+    <!-- 会社概要 & 信頼性の強化要素 -->
+    <section class="section bg-light">
+      <div class="container">
+        <h2>会社概要 & 信頼性の強化要素</h2>
+        <div class="company-info">
+          <div class="info-grid">
+            <div class="info-item">
+              <h4>会社名</h4>
+              <p>ASRIR FIX株式会社</p>
+            </div>
+            <div class="info-item">
+              <h4>代表者</h4>
+              <p>代表取締役 [代表者名]</p>
+            </div>
+            <div class="info-item">
+              <h4>所在地</h4>
+              <p>[所在地]</p>
+            </div>
+            <div class="info-item">
+              <h4>設立年</h4>
+              <p>[設立年]</p>
+            </div>
+          </div>
+          
+          <div class="philosophy">
+            <h4>理念</h4>
+            <p>「感謝を忘れず、相手の立場で考える」</p>
+          </div>
+          
+          <div class="trust-factors">
+            <h4>信頼性の強化要素</h4>
+            <ul>
+              <li>加盟団体・取引実績（可能であれば）</li>
+              <li>顧問税理士／顧問弁護士など「バックアップ体制」も載せると信頼度UP</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- お問い合わせ（法人仕様） -->
+    <section class="section contact-section">
+      <div class="container">
+        <h2>お問い合わせ</h2>
+        <div class="cta-strong">
+          <p class="cta-text">不動産戦略・システム導入に関するご相談は<strong>無料</strong>です</p>
+        </div>
+        
+        <div class="contact-info">
+          <div class="phone-info">
+            <h3>法人専用ダイヤル</h3>
+            <p class="phone-number">[電話番号]</p>
+          </div>
+          
+          <div class="contact-form">
+            <h3>お問い合わせフォーム</h3>
+            <form>
+              <div class="form-group">
+                <label for="company">会社名 *</label>
+                <input type="text" id="company" name="company" required>
+              </div>
+              <div class="form-group">
+                <label for="department">部署</label>
+                <input type="text" id="department" name="department">
+              </div>
+              <div class="form-group">
+                <label for="name">担当者名 *</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">電話番号 *</label>
+                <input type="tel" id="phone" name="phone" required>
+              </div>
+              <div class="form-group">
+                <label for="content">相談内容 *</label>
+                <textarea id="content" name="content" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="submit-btn">お問い合わせを送信</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 法人向けお問い合わせフォーム -->
+    <section class="contact-form-section">
+      <div class="contact-form-container">
+        <!-- ヘッダー -->
+        <div class="contact-form-header">
+          <div class="contact-logo-container">
+            <img src="/assets/brand/ASRIR_FIX_logo.png" alt="ASRIR FIX Logo" class="contact-logo">
+          </div>
+          <h1 class="contact-form-title">法人向けお問い合わせ</h1>
+          <p class="contact-form-subtitle">不動産戦略・システム開発のご相談は無料です。以下のフォームよりお気軽にお問い合わせください。</p>
+        </div>
+
+        <!-- フォーム -->
+        <div class="contact-form-wrapper">
+          <form id="corporateContactForm" class="contact-form">
+            <div id="errorMessage" class="error-message hidden"></div>
+            
+            <!-- 会社情報 -->
+            <div class="form-section">
+              <h3 class="section-title">会社情報</h3>
+              <div class="form-grid">
+                <div class="form-group">
+                  <label class="form-label">会社名<span class="required">＊</span></label>
+                  <input type="text" id="company" name="company" class="form-input" placeholder="株式会社ASRIR FIX" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">部署名</label>
+                  <input type="text" id="department" name="department" class="form-input" placeholder="経営企画部">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">ご担当者名<span class="required">＊</span></label>
+                  <input type="text" id="name" name="name" class="form-input" placeholder="山田 太郎" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">メールアドレス<span class="required">＊</span></label>
+                  <input type="email" id="email" name="email" class="form-input" placeholder="example@company.co.jp" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">電話番号</label>
+                  <input type="tel" id="phone" name="phone" class="form-input" placeholder="03-1234-5678">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">ご希望日時</label>
+                  <input type="datetime-local" id="preferredDate" name="preferredDate" class="form-input">
+                </div>
+              </div>
+            </div>
+
+            <!-- 種別・予算 -->
+            <div class="form-section">
+              <h3 class="section-title">ご相談内容</h3>
+              <div class="form-grid">
+                <div class="form-group">
+                  <label class="form-label">ご相談内容の種別</label>
+                  <select id="inquiryType" name="inquiryType" class="form-select">
+                    <option value="real-estate">不動産コンサルティング</option>
+                    <option value="system-dev">システム開発</option>
+                    <option value="both">不動産＋システム開発</option>
+                    <option value="other">その他</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">ご予算の目安</label>
+                  <select id="budget" name="budget" class="form-select">
+                    <option value="undisclosed">未定 / 非公開</option>
+                    <option value="lt1m">〜100万円</option>
+                    <option value="1to3m">100万〜300万円</option>
+                    <option value="3to10m">300万〜1,000万円</option>
+                    <option value="gt10m">1,000万円以上</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <!-- 内容 -->
+            <div class="form-section">
+              <div class="form-group">
+                <label class="form-label">ご相談内容<span class="required">＊</span></label>
+                <textarea id="message" name="message" rows="6" class="form-textarea" placeholder="課題・現状・ゴールなどをご記入ください。" required></textarea>
+              </div>
+            </div>
+
+            <!-- 同意・送信 -->
+            <div class="form-section">
+              <div class="agreement-group">
+                <input type="checkbox" id="agree" name="agree" class="agreement-checkbox" required>
+                <label for="agree" class="agreement-label">
+                  プライバシーポリシーに同意します（初回相談は無料です）
+                </label>
+              </div>
+              
+              <div class="submit-container">
+                <button type="submit" id="submitButton" class="submit-button">
+                  <span class="submit-text">無料相談を申し込む</span>
+                  <span class="submit-loading hidden">送信中…</span>
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <!-- 連絡先（代替導線） -->
+          <div class="contact-alternative">
+            またはお電話：<span class="phone-number">03-XXXX-YYYY</span>（法人専用窓口）
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 送信完了画面 -->
+    <div id="successMessage" class="success-message hidden">
+      <div class="success-container">
+        <div class="success-logo-container">
+          <img src="/assets/brand/ASRIR_FIX_logo.png" alt="ASRIR FIX Logo" class="success-logo">
+        </div>
+        <div class="success-content">
+          <h1 class="success-title">お問い合わせを受け付けました</h1>
+          <p class="success-description">担当者より折り返しご連絡いたします。<br>初回相談は無料です。日程のご提案をメールにてお送りします。</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <footer class="footer">
+    <div class="container">
+      <div>
+        <strong>© 2025 ASRIR FIX</strong><br>
+        不動産×ITソリューションで企業価値を高める総合パートナー
+      </div>
+      <div style="text-align:right;">
+        <small>[所在地]<br>TEL. [電話番号]</small>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GA_MEASUREMENT_ID');
+  </script>
+  
+  <script src="/scripts/main.js"></script>
+  
+  <!-- スクロールアニメーション用スクリプト -->
+  <script>
+    // Intersection Observer APIを使用したスクロールアニメーション
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-on-scroll');
+        }
+      });
+    }, observerOptions);
+    
+    // アニメーション対象の要素を監視
+    document.addEventListener('DOMContentLoaded', () => {
+      const animateElements = document.querySelectorAll('.animate-on-scroll');
+      animateElements.forEach(el => {
+        observer.observe(el);
+      });
+      
+      // お問い合わせフォームの処理
+      setupContactForm();
+    });
+    
+    // お問い合わせフォームの設定
+    function setupContactForm() {
+      const form = document.getElementById('corporateContactForm');
+      const errorMessage = document.getElementById('errorMessage');
+      const submitButton = document.getElementById('submitButton');
+      const submitText = submitButton.querySelector('.submit-text');
+      const submitLoading = submitButton.querySelector('.submit-loading');
+      const successMessage = document.getElementById('successMessage');
+      
+      if (!form) return;
+      
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        // エラーメッセージをクリア
+        hideError();
+        
+        // バリデーション
+        if (!validateForm()) {
+          return;
+        }
+        
+        // 送信状態に変更
+        setSendingState(true);
+        
+        try {
+          // フォームデータを取得
+          const formData = new FormData(form);
+          const data = Object.fromEntries(formData.entries());
+          
+          // 送信処理（実際のAPIエンドポイントに置き換えてください）
+          await submitForm(data);
+          
+          // 成功時の処理
+          showSuccess();
+          
+        } catch (error) {
+          console.error('送信エラー:', error);
+          showError('送信に失敗しました。時間をおいて再度お試しください。');
+        } finally {
+          setSendingState(false);
+        }
+      });
+      
+      // バリデーション関数
+      function validateForm() {
+        const company = form.company.value.trim();
+        const name = form.name.value.trim();
+        const email = form.email.value.trim();
+        const message = form.message.value.trim();
+        const agree = form.agree.checked;
+        
+        if (!company) {
+          showError('会社名を入力してください。');
+          return false;
+        }
+        
+        if (!name) {
+          showError('ご担当者名を入力してください。');
+          return false;
+        }
+        
+        if (!email) {
+          showError('メールアドレスを入力してください。');
+          return false;
+        }
+        
+        if (!isValidEmail(email)) {
+          showError('メールアドレスの形式が不正です。');
+          return false;
+        }
+        
+        if (!message) {
+          showError('ご相談内容を入力してください。');
+          return false;
+        }
+        
+        if (!agree) {
+          showError('プライバシーポリシーへの同意が必要です。');
+          return false;
+        }
+        
+        return true;
+      }
+      
+      // メールアドレス形式チェック
+      function isValidEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+      }
+      
+      // エラーメッセージ表示
+      function showError(message) {
+        errorMessage.textContent = message;
+        errorMessage.classList.remove('hidden');
+        errorMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+      
+      // エラーメッセージ非表示
+      function hideError() {
+        errorMessage.classList.add('hidden');
+      }
+      
+      // 送信状態の設定
+      function setSendingState(sending) {
+        if (sending) {
+          submitButton.disabled = true;
+          submitText.classList.add('hidden');
+          submitLoading.classList.remove('hidden');
+        } else {
+          submitButton.disabled = false;
+          submitText.classList.remove('hidden');
+          submitLoading.classList.add('hidden');
+        }
+      }
+      
+      // フォーム送信処理（実際のAPIエンドポイントに置き換えてください）
+      async function submitForm(data) {
+        // 実際の実装では、ここでAPIエンドポイントにPOSTリクエストを送信
+        // 例: fetch('/api/contact', { method: 'POST', body: JSON.stringify(data) })
+        
+        // デモ用：2秒待機して成功をシミュレート
+        await new Promise(resolve => setTimeout(resolve, 2000));
+        
+        // 実際の実装では、レスポンスをチェックしてエラーハンドリングを行う
+        // if (!response.ok) throw new Error('送信に失敗しました');
+      }
+      
+      // 成功画面表示
+      function showSuccess() {
+        successMessage.classList.remove('hidden');
+        // フォームを非表示
+        form.closest('.contact-form-section').style.display = 'none';
+      }
+    }
+  </script>
+</body>
+</html>
+
