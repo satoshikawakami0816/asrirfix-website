@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "asrirfix-online-website",
+  "name": "asrirfix-website",
   "builds": [
     {
       "src": "public/**/*",
