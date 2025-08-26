@@ -683,85 +683,210 @@
       justify-content: center;
     }
     
-    .hero-background {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      opacity: 0.9;
-      /* 背景画像が設定されている場合は、グラデーションを薄くする */
-    }
-    
-    /* 背景画像用のスタイル */
-    .hero-background.with-image {
-      background: linear-gradient(135deg, rgba(102, 126, 234, 0.8) 0%, rgba(118, 75, 162, 0.8) 100%);
-      background-image: url('/assets/images/hero-background.jpg');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-blend-mode: overlay;
-    }
-    
-    .hero-overlay {
+    /* ヒーローセクションの新しいスタイル */
+    .hero-section {
       position: relative;
-      z-index: 1;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      backdrop-filter: blur(2px);
-      background: rgba(255, 255, 255, 0.1);
+      min-height: 60vh;
+      overflow: hidden;
     }
     
-    .hero-content {
-      max-width: 80rem;
-      margin: 0 auto;
-      padding: 5rem 1.5rem;
+    /* 背景画像 */
+    .hero-section .absolute {
+      position: absolute;
+    }
+    
+    .hero-section .inset-0 {
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+    
+    .hero-section .z-0 {
+      z-index: 0;
+    }
+    
+    .hero-section .z-10 {
+      z-index: 10;
+    }
+    
+    .hero-section .z-20 {
+      z-index: 20;
+    }
+    
+    .hero-section .bg-center {
+      background-position: center;
+    }
+    
+    .hero-section .bg-cover {
+      background-size: cover;
+    }
+    
+    .hero-section .bg-white\/10 {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    .hero-section .pointer-events-none {
+      pointer-events: none;
+    }
+    
+    /* コンテンツ */
+    .hero-section .relative {
+      position: relative;
+    }
+    
+    .hero-section .max-w-6xl {
+      max-width: 72rem;
+    }
+    
+    .hero-section .mx-auto {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .hero-section .px-6 {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+    
+    .hero-section .py-16 {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+    
+    .hero-section .py-24 {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+    
+    .hero-section .text-center {
       text-align: center;
-      color: white;
     }
     
-    .logo-container {
+    .hero-section .mb-6 {
       margin-bottom: 1.5rem;
     }
     
-    .hero-logo {
-      height: 60px;
-      width: auto;
-      filter: brightness(0) invert(1);
+    .hero-section .mt-4 {
+      margin-top: 1rem;
     }
     
-    .hero-heading {
-      font-size: 3rem;
-      font-weight: 800;
-      margin-bottom: 1rem;
-      line-height: 1.2;
-      color: white;
+    .hero-section .mt-8 {
+      margin-top: 2rem;
     }
     
-    .hero-subtitle {
-      font-size: 1.25rem;
-      margin-bottom: 2rem;
-      color: rgba(255, 255, 255, 0.9);
-      line-height: 1.6;
+    .hero-section .gap-2 {
+      gap: 0.5rem;
     }
     
-    .cta-button {
-      background: #3b82f6;
-      color: white;
-      border: none;
+    .hero-section .rounded-2xl {
       border-radius: 1rem;
-      padding: 1rem 2rem;
-      font-size: 1.125rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: all 0.3s ease;
     }
     
-    .cta-button:hover {
-      background: #2563eb;
-      transform: translateY(-2px);
-      box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+    .hero-section .px-6 {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+    
+    .hero-section .py-4 {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    
+    .hero-section .bg-blue-600 {
+      background-color: #2563eb;
+    }
+    
+    .hero-section .text-white {
+      color: white;
+    }
+    
+    .hero-section .font-semibold {
+      font-weight: 600;
+    }
+    
+    .hero-section .shadow {
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    }
+    
+    .hero-section .hover\:bg-blue-700:hover {
+      background-color: #1d4ed8;
+    }
+    
+    /* テキストスタイル */
+    .hero-section .text-3xl {
+      font-size: 1.875rem;
+      line-height: 2.25rem;
+    }
+    
+    .hero-section .text-5xl {
+      font-size: 3rem;
+      line-height: 1;
+    }
+    
+    .hero-section .md\:text-5xl {
+      font-size: 1.875rem;
+      line-height: 2.25rem;
+    }
+    
+    @media (min-width: 768px) {
+      .hero-section .md\:text-5xl {
+        font-size: 3rem;
+        line-height: 1;
+      }
+    }
+    
+    .hero-section .font-extrabold {
+      font-weight: 800;
+    }
+    
+    .hero-section .text-gray-900 {
+      color: #111827;
+    }
+    
+    .hero-section .text-base {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+    
+    .hero-section .text-lg {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+    }
+    
+    .hero-section .md\:text-lg {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+    
+    @media (min-width: 768px) {
+      .hero-section .md\:text-lg {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+      }
+    }
+    
+    .hero-section .text-gray-800 {
+      color: #1f2937;
+    }
+    
+    .hero-section .leading-relaxed {
+      line-height: 1.625;
+    }
+    
+    /* ボタンスタイル */
+    .hero-section .inline-flex {
+      display: inline-flex;
+    }
+    
+    .hero-section .items-center {
+      align-items: center;
+    }
+    
+    .hero-section .transition-colors {
+      transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 150ms;
     }
     
     /* 事例セクション */
@@ -2606,22 +2731,35 @@
     <section class="top-page">
       <!-- ヒーロー -->
       <div class="hero-section">
-        <div class="hero-background with-image">
-          <div class="hero-overlay">
-            <div class="hero-content">
-                          <div class="hero-logo-container">
-              <img src="/logo.svg" alt="ASRIR FIX Logo" class="hero-logo">
-            </div>
-            <h1 class="hero-title">未来をつくる不動産コンサル × システム開発</h1>
-            <p class="hero-subtitle">法人の課題を「資産」と「IT」で解決する総合パートナー</p>
-            <div class="hero-buttons">
-              <a href="#contact" class="hero-button primary">
-                無料相談を申し込む
-              </a>
-            </div>
-            </div>
+        <!-- isolate で独立スタッキング、z-0/z-10/z-20 を明示 -->
+        <section class="relative isolate min-h-[60vh] overflow-hidden">
+          <!-- 背景画像（最背面） -->
+          <div
+            class="absolute inset-0 z-0 bg-center bg-cover"
+            style="background-image: url('/images/hero_fusion_clean.png')"
+            aria-hidden="true">
           </div>
-        </div>
+
+          <!-- オーバーレイ（テキストの下。薄めでOK。濃ければ/20→/10へ） -->
+          <div class="absolute inset-0 z-10 bg-white/10 pointer-events-none" aria-hidden="true"></div>
+
+          <!-- コンテンツ（最前面） -->
+          <div class="relative z-20 max-w-6xl mx-auto px-6 py-16 md:py-24 text-center">
+            <img src="/logo.svg" alt="ASRIR FIX Logo" class="mx-auto mb-6" style="width: 180px; height: auto;" />
+            <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900">
+              未来をつくる不動産コンサル × システム開発
+            </h1>
+            <p class="mt-4 text-gray-800 text-base md:text-lg">
+              法人の課題を「資産」と「IT」で解決する総合パートナー
+            </p>
+            <a
+              href="#contact"
+              class="inline-flex items-center gap-2 mt-8 rounded-2xl px-6 py-4 bg-blue-600 text-white font-semibold shadow hover:bg-blue-700"
+            >
+              無料相談を申し込む
+            </a>
+          </div>
+        </section>
       </div>
 
       <!-- 事業アイコン図 -->
