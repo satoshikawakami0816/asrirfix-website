@@ -685,6 +685,7 @@
       inset: 0;
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       opacity: 0.9;
+      /* 背景画像が設定されている場合は、グラデーションを薄くする */
     }
     
     .hero-overlay {
@@ -2592,7 +2593,7 @@
     <section class="top-page">
       {/* ヒーロー */}
       <div class="hero-section">
-        <div class="hero-background">
+        <div class="hero-background" style="background-image: url('/assets/images/hero-background.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
           <div class="hero-overlay">
             <div class="hero-content">
                           <div class="hero-logo-container">
