@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # サイトマップの場所
-Sitemap: https://www.asrirfix.com/sitemap.xml
+Sitemap: https://www.asrirfix.online/sitemap.xml
 
 # 特定のディレクトリの制御（必要に応じて）
 # Disallow: /admin/
