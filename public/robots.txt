@@ -8,9 +8,6 @@ Sitemap: https://www.asrirfix.com/sitemap.xml
 # Disallow: /admin/
 # Disallow: /private/
 
-# クロール遅延（必要に応じて）
-# Crawl-delay: 1
-
-# カスタムドメイン設定
-# メインドメイン: www.asrirfix.com
-# サブドメイン: asrirfix.com
+# コメント
+# ASRIR FIX - 不動産×IT×家電修理の総合パートナー
+# 土木関係の古いページは削除済み
