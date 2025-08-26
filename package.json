@@ -1,17 +1,30 @@
 {
-    "$schema": "https://json.schemastore.org/package.json",
-    "private": true,
-    "type": "module",
-    "scripts": {
-        "build": "vite build",
-        "dev": "vite"
-    },
-    "devDependencies": {
-        "@tailwindcss/vite": "^4.0.0",
-        "axios": "^1.11.0",
-        "concurrently": "^9.0.1",
-        "laravel-vite-plugin": "^2.0.0",
-        "tailwindcss": "^4.0.0",
-        "vite": "^7.0.4"
-    }
+  "name": "asrirfix-website",
+  "version": "1.0.0",
+  "description": "ASRIR FIX corporate website with SEO optimization",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Static site - no build required'",
+    "start": "echo 'Static site - no start required'",
+    "dev": "echo 'Use local server like XAMPP or Live Server'"
+  },
+  "keywords": [
+    "asrirfix",
+    "corporate",
+    "website",
+    "seo",
+    "real-estate",
+    "system-development"
+  ],
+  "author": "ASRIR FIX",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/asrirfix-website.git"
+  },
+  "homepage": "https://asrirfix-website.vercel.app"
 }
