@@ -688,6 +688,16 @@
       /* 背景画像が設定されている場合は、グラデーションを薄くする */
     }
     
+    /* 背景画像用のスタイル */
+    .hero-background.with-image {
+      background: linear-gradient(135deg, rgba(102, 126, 234, 0.8) 0%, rgba(118, 75, 162, 0.8) 100%);
+      background-image: url('/assets/images/hero-background.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: overlay;
+    }
+    
     .hero-overlay {
       position: relative;
       z-index: 1;
@@ -2593,7 +2603,7 @@
     <section class="top-page">
       {/* ヒーロー */}
       <div class="hero-section">
-        <div class="hero-background" style="background-image: url('/assets/images/hero-background.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+        <div class="hero-background with-image">
           <div class="hero-overlay">
             <div class="hero-content">
                           <div class="hero-logo-container">
